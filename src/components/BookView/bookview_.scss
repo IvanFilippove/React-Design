@@ -1,0 +1,248 @@
+@import "../../assets/styles/abstracts/variables";
+
+div.nav_bar {
+    input {
+        width: 165px;
+    }
+    ul.header-nav-bar li {
+        display: flex;
+        align-items: center;
+        padding: 3px 18px;
+        font-weight: 500;
+        margin-left: 25px;
+        font-size: 18px;
+    }    
+    ul.header-nav-bar li > a {
+        margin-top: 2px;
+    }
+    div.top-search {
+        display: flex;
+    }
+    ul.header-nav-bar li.li-browse-by {
+        font-size: 14px;
+        padding: 3px 0px;
+        font-weight: 400;
+    }
+    input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-weight: 500;
+    }
+    input::-moz-placeholder { /* Firefox 19+ */
+        font-weight: 500;
+    }
+    input:-ms-input-placeholder { /* IE 10+ */
+        font-weight: 500;
+    }
+    input:-moz-placeholder { /* Firefox 18- */
+        font-weight: 500;
+    }
+    ul.header-nav-bar li.active {
+        color: $color-whitegray-background;
+        background-color: $color-gray-font;
+        font-weight: 400;
+    }
+}
+
+.search-icon {
+    margin-right: 15px;
+}
+
+.input-search-box,
+.input-search-box.active {
+    border: none;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.tab-btn {
+    width: 275px;
+    padding: 6px 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px 20px;
+}
+
+.nav-link.active .tab-btn,
+.explore-btn button.btn-primary:not(:disabled):not(.disabled):active,
+.explore-btn button.btn-primary:hover,
+.explore-btn button.btn-primary {
+    background-color: $color-active-tab-button;
+    color: $color-white;
+    border-radius: 8px;
+    border-color: $color-active-tab-button;
+    padding: 7px 30px;
+}
+
+.selected-book-title {
+    display: flex;
+    justify-content: center;
+}
+
+.book-title h3 {
+    width: 270px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 6px 0px 6px 0px;
+    font-size: 24px;
+    color: #999999;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.nav-pills .nav-link.active, 
+.nav-pills .show > .nav-link {
+    background-color: transparent !important;
+}
+
+.expand-btn button,
+.expand-btn button:hover,
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: $color-explore-button;
+    color: $color-white;
+    border-radius: 7px;
+    border: 1px solid $color-explore-button;
+    box-shadow: none !important;
+}
+
+.titles-list button, 
+.titles-list button:hover,
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: $color-white;
+    color: $color-accordion-text-color;
+    border-radius: 7px;
+    border: 1px solid $color-white;
+    box-shadow: none !important;
+    margin-right: 19px;
+    margin-bottom: 19px;
+}
+div.card-header,
+div.card-body {
+    background: $color-whitegray-background;
+}
+
+div.card {
+    border: none;
+    border-bottom: 2px solid $color-whitegray-text !important;
+}
+.card-header, 
+.btn.btn-link {
+    padding-left: 0px;
+}
+.btn.btn-link,
+.btn.btn-link:hover {
+    text-decoration: none;
+    color: $color-accordion-text-color;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 2.8px;
+}
+.accordion-icon {
+    margin-top: 5px;
+    float: right;
+    font-size: 25px;
+}
+.possible-titles h1 {
+    color: $color-accordion-text-color;
+}
+.tab-btns p {
+    color: $color-accordion-text-color;
+    margin-bottom: 0px;
+}
+.series-title {
+    padding: 10px 20px
+}
+.series-list,
+.sermon-series-title {
+    padding: 30px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.series-list {
+    padding: 10px 20px 0px 0px;
+    background-color: #e6e1e1f2;
+    li.active {
+        color: $color-active-tab-button;
+        svg {
+            color: $color-whitegray-text;
+        }
+    }
+    ul {
+        list-style: none;
+        margin-bottom: 30px;
+        font-size: 17px;
+        letter-spacing: 0.6px;
+        li {
+            margin-bottom: 10px;
+            svg {
+                color: $color-whitegray-text;
+            }
+        }
+        li a:not([href]):not([tabindex]) {
+            text-decoration: underline;
+        }
+    }
+    ul.sub-list {
+        color: $color-whitegray-text;
+        margin-bottom: 0px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    ul.sub2-list {
+        color: $color-whitegray-text;
+        margin-bottom: 0px;
+        padding-top: 10px;
+    }
+}
+.sermon-series {
+    padding-top: 30px
+}
+.possible-titles {
+    // padding-bottom: 20px;
+    // border-bottom: 2px solid $color-whitegray-text !important;
+}
+
+.title-icon {
+    display: flex;
+    align-items: center;
+    color: $color-whitegray-background;
+    margin-left: 30px;
+    .dropdown-icon {
+        font-size: 40px;
+    }
+}
+
+@media all and (min-width: 1320px) {
+    .series-titles.col-lg-4 {
+        flex: 0 0 28.5%;
+        max-width: 33.33333%;
+    }
+    .titles-list.col-lg-8 {
+        flex: 0 0 71.5%;
+        max-width: 74%;
+        margin-right: -33px;
+        margin-left: 33px;
+    }
+    .series-box {
+        margin-right: 30px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+    .sermon-series {
+        margin-right: 15px !important;
+        border-top: 2px solid $color-whitegray-text !important;
+    }
+}
+
+@media all and (max-width: 1120px) {
+    .nav-bar {
+        float: unset;
+        justify-content: center;
+    }
+    .land_header {
+        display: flex;
+    }
+}

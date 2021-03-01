@@ -1,0 +1,171 @@
+#signup {
+    display: flex;
+    justify-content: center;
+
+.main_container {
+    width: fit-content;
+    padding: 0px 20px 20px 20px;
+    margin-bottom: 100px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    box-shadow: 0 0 24px 4px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 1%;
+    height: 115px;
+    width: 270px;
+    background-color: white;
+}
+
+.title_container {
+    text-align: center;
+    margin-top: 55px;
+    .title {
+        font-size: 36px;
+        color: #911d22;
+        font-weight: bold;
+        letter-spacing: 8px;
+    }
+    .desc {
+        font-size: 22px;
+        color: #4d4d4d;
+        font-weight: bold;
+        letter-spacing: 0.7px;
+    }
+}
+
+
+
+.middle_container {
+    padding: 20px;
+    width: 435px;
+    margin: auto;
+    p {
+        font-size: 17px;
+        text-align: center;
+        font-weight: bold;
+        color: #4d4d4d;
+        letter-spacing: 1px;
+    }
+    label {
+        color: #999999;
+        letter-spacing: 1.5px;
+        font-size: 18px;
+    }
+    .input_container {
+        margin-bottom: 15px;
+    }
+
+    .name {
+        display: flex;
+        .first_name {
+            padding-right: 10px;
+        }
+        .last_name {
+            padding-left: 10px;
+        }
+    }
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #4d4d4d;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #4d4d4d;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.member_container {
+    margin-top: 30px;
+    text-align: center;
+    p {
+        font-size: 24px;
+        font-weight: bold;
+        color: #4d4d4d;
+    }
+    .member_card {
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        margin: auto;
+        background-color: #999999;
+        margin-bottom: 30px;
+        .dollar {
+            font-size: 80px;
+            color: white;
+        }
+        .cost {
+            font-size: 120px;
+            color: white;
+        }
+        .month {
+            font-weight: 200;
+            font-size: 42px;
+            color: white;
+        }
+    }
+}
+
+.footer {
+    text-align: center;
+    p {
+        font-size: 28px;
+        letter-spacing: 0.8px;
+        color: #4d4d4d;
+    }
+    .start_btn {
+        background-color: #fcc121;
+        border-radius: 11px;
+        height: 60px;
+        color: white;
+        width: 300px;
+        border: 1px solid #fcc121;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .p_p {
+        font-size: 18px;
+        color: #4d4d4d;
+    }
+}
+}
+
+
+@media screen and (max-width: 768px) {
+    #signup .title_container .desc {
+        font-size: 15px;
+    }
+    #signup .middle_container {
+        width: unset;
+    }
+    #signup .footer {
+        padding: 20px;
+    }
+    .input_container {
+        padding: 20px;
+    }
+    .email {
+        margin-bottom: 20px;
+    }
+    .main_container .input_container input {
+        width: 100% !important;
+    }
+    .main_container .input_container div {
+        display: unset;
+    }
+    .main_container .divider div:nth-child(1) {
+        width: 90%;
+    }
+}

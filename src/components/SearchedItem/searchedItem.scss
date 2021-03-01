@@ -1,0 +1,108 @@
+#search-item {
+    margin-bottom: 100px;
+}
+.container-section {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.item-title {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    color: #4d4d4d;
+    padding-top: 150px;
+}
+.author-content {
+    text-align: center;
+    background-color: white;
+    margin-top: 150px;
+}
+.photo-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+img.photo {
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 380px;
+    z-index: 99;
+}
+.author {
+    font-size: 24px;
+    color: #4d4d4d90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 30px;
+    }
+    img:hover {
+        cursor: pointer;
+    }
+}
+.author-desc {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #4d4d4d90;
+    margin-bottom: unset;
+}
+.item-content {
+    background-color: white;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 50px;
+    .left-text {
+        font-size: 18px;
+        color: #4d4d4d90;
+        letter-spacing: 0.8px;
+    }
+    .left-text:hover {
+        font-size: 18px;
+        color: #0B4F77;
+        letter-spacing: 0.8px;
+    }
+    .card .card-header {
+        background-color: white;
+    }
+    .card .card-body
+    {
+        background-color: white;
+        p {
+            margin-bottom: unset;
+            font-size: 17px;
+            color: #4d4d4d90;
+        }
+    } 
+}
+.selected-accordion-icon {
+    margin-left: 15px;
+    font-size: 15px;
+}
+.author-modal-content {
+    text-align: center;
+    .title {
+        font-size: 22px;
+        color: #4d4d4d;
+    }
+    .desc {
+        font-size: 14px;
+        color: #4d4d4d80;
+    }
+}
+.modal-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.author-desc {
+    font-size: 14px;
+    color: #4d4d4d90;
+}
+
+.close {
+    font-size: 48px;
+}

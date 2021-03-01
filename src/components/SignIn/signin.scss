@@ -1,0 +1,136 @@
+#signin{
+    // .back_container {
+    //     // background-image: url("./../../assets/resource/images/Untitled.png");
+    //     opacity: 0.2;
+    //     height: 900px;
+    //     position: absolute;
+    //     z-index: -1;
+    //     top: 0;
+    //     bottom: 0;
+    //     left: 0;
+    //     right: 0;
+    // }
+
+    // .back_img {
+    //     // background-image: url("./../../assets/resource/images/aaron-burden-307060-unsplash.jpg");
+    //     background-size: 57%;
+    //     height: 900px;
+    //     background-repeat: no-repeat;
+    // }
+} 
+
+.header_container {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 7%;
+        padding-right: 10%;
+    .header_items {
+        margin-top: 40px;
+        span {
+            padding-right: 30px;
+            color: #999999;
+        }
+        button {
+            border: 1px solid #4d4d4d;
+            background-color: #4d4d4d;
+            border-radius: 5px;
+            color: #e6e6e6;
+            padding: 2px 10px 2px 10px;
+            width: 190px;
+            height: 40px;
+        }
+    }
+}
+
+.main_container {
+    .divider {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    
+    .divider div:nth-child(1) {
+        width: 35%;
+        border: 1.5px solid #4d4d4d;
+    }
+    .divider img {
+        width: 120px;
+        height: 80px;
+        position: absolute;
+        background-color: #e6e6e6;
+    }
+    .title_container {
+        text-align: center;
+        .title {
+            font-size: 60px;
+            font-weight: 300;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .desc {
+            font-size: 20px;
+        }
+    }
+    .signin_input_container{
+        p {
+            font-size: 28px;
+            font-weight: bold;
+            color: #911d22;
+            text-decoration: underline;
+            text-align: center;
+        }
+        div {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        input {
+            text-align: center;
+            width: 490px !important;
+            height: 60px;
+            background-color: white;
+            border-radius: 12px;
+            border: 1px;
+        }
+    } 
+    .btn_container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .signin_btn {
+            width: 240px;
+            border: 3px solid #911d22;
+            border-radius: 5px;
+            height: 50px;
+            color: #911d22;
+            font-weight: bold;
+            font-size: 24px;
+        }
+    }
+    .bottom_container {
+        text-align: center;
+        padding-bottom: 150px;
+        span {
+            text-decoration: underline;
+            padding: 20px;
+            letter-spacing: 1px;
+
+        }
+    }
+    
+}
+
+@media screen and  (max-width: 768px) {
+    .header_container {
+        display: grid;
+        justify-content: center;
+        padding-left: unset;
+        padding-right: unset;
+    }
+    .main_container .signin_input_container input {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,348 @@
+.row {
+    margin-left: unset !important;
+    margin-right: unset !important;
+}
+.btn_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.start_btn {
+    background-color: #fcc121;
+    border-radius: 11px;
+    height: 70px;
+    color: white;
+    width: 350px;
+    border: 1px solid #fcc121;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.red_title {
+    font-size: 66px;
+    color: #911d22;
+    font-weight: bold;
+}
+
+.white_title {
+    font-size: 66px;
+    color: #e6e6e6;
+    font-weight: bold;
+}
+
+.black_desc {
+    font-size: 26px;
+    font-weight: 500;
+    color: #4d4d4d;
+}
+
+.white_desc {
+    font-size: 26px;
+    font-weight: 500;
+    color: #e6e6e6;
+}
+
+.land_plan {
+    background-color: #e6e6e6;
+}
+
+
+.land_prepare {
+    padding-top: 100px;
+    background-color: #911d22;
+}
+
+.land_preach {
+    padding-top: 100px;
+    background-color: #e6e6e6;
+}
+
+.land_port {
+    padding: 100px 200px 100px 200px;
+    background-color: #4d4d4d;
+}
+
+.land_memership {
+    padding-top: 100px;
+    background-color: #e6e6e6;
+}
+
+.land_memership .btn_container1 {
+    margin-top: unset !important;
+}
+.land_memership .btn_container2 {
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.image {
+    width: 80%;
+}
+
+.land_plan .image {
+    float: right;
+}
+
+.land_preach .image {
+    float: right;
+}
+
+.land_prepare div:nth-child(1) {
+    padding-left: 15%;
+}
+
+.desc_container {
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.port_card {
+    padding: 52px;
+    background-color: #ffffff;
+    height: 420px;
+    width: 570px;
+    margin: 35px;
+    display: flex;
+}
+
+.port_card p {
+    font-size: 27px;
+    color: #4d4d4d;
+    font-weight: bold;
+    padding-left: 15%;
+}
+
+.port_card div:nth-child(1) {
+    width: 100%;
+}
+
+.port_card div:nth-child(1) div:nth-child(1) {
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 100%;
+}
+
+.divider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.divider div:nth-child(1) {
+    width: 90%;
+    border: 1.5px solid #4d4d4d;
+}
+.divider img {
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    background-color: #e6e6e6;
+}
+
+.mem_container {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.mem_title {
+    font-size: 43px;
+    color: #911d22;
+    font-weight: bold;
+}
+
+.mem_desc {
+    font-size: 34px;
+    color: #4d4d4d;
+    letter-spacing: 1px;
+}
+
+.card_container {
+    display: flex;
+}
+.memCard {
+    background: white;
+    width: 430px;
+    float: right;
+    box-shadow: 0 0 24px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+
+.startAt {
+    font-size: 26px;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+
+.memCard span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.memCard span p:nth-child(1) {
+    font-size: 80px;
+    color: #4d4d4d;
+}
+
+.memCard span p:nth-child(2) {
+    font-size: 120px;
+    color: #4d4d4d;
+}
+.card_indi_container1{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.card_indi_container2{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 65px;
+}
+.month {
+    font-size: 40px;
+    color: #4d4d4d;
+}
+#landing {
+    .land_header {
+        padding-left: 8%; 
+        padding-right: 6%;
+    }
+}
+.land_header {
+    // padding-left: 8%;
+    // background-image: url(/static/media/carolyn-v-546925-unsplash.63799b39.jpg);
+    // padding-right: 6%;
+    // display: flex;
+    // justify-content: space-between;
+    display: block;
+}
+
+.logo {
+    box-shadow: 0 0 24px 4px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 1%;
+    height: 130px;
+    width: 315px;
+    background-color: white;
+}
+
+.nav_bar {
+    float: right;
+}
+
+.nav_bar ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 40px;
+}
+
+.nav_bar ul li {
+    margin-left: 12px;
+}
+
+.start_btn_header {
+    background-color: transparent;
+    border: 2px solid #4d4d4d;
+    border-radius: 6px;
+    color: #4d4d4d;
+    font-size: 16px;
+    font-weight: bold;
+    width: 210px;
+    height: 40px;
+}
+
+.landing-email {
+    padding-left: 10px;
+    border-radius: 6px;
+    border: 1px solid white;
+    width: 240px !important;
+    height: 40px;
+}
+
+.landing-password {
+    padding-left: 10px;
+    border-radius: 6px;
+    border: 1px solid white;
+    width: 200px !important;
+    height: 40px;
+}
+
+.login_btn {
+    background-color: transparent;
+    border: 2px solid #4d4d4d;
+    border-radius: 6px;
+    color: #4d4d4d;
+    font-size: 16px;
+    font-weight: bold;
+    width: 85px;
+    height: 40px;
+}
+
+a {
+    color: unset !important;
+}
+
+.land_first {
+    // background-image: url('./../../assets/resource/images/carolyn-v-546925-unsplash.jpg');
+    text-align: center;
+    .video {
+        width: 60%;
+        opacity: 0.7;
+    }
+    .play {
+        position: absolute;
+        width: 12%;
+        margin-left: -35%;
+        margin-top: 7%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .card_container {
+        display: block;
+        .card_indi_container1 {
+            padding-right: 15px;
+        }
+        .card_indi_container2 {
+            padding-left: 15px;
+            margin-top: 20px;
+        }
+    }
+    .land_port {
+        padding: unset;
+    }
+    .port_card {
+        display: block;
+    }
+
+    .nav_bar {
+        width: 100%;
+        ul {
+            text-align: center;
+            display: block;
+            padding-left: unset;
+            width: 100%;
+            li {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .logo {
+        width: 100%;
+    }
+    .landing-email, .landing-password {
+        width: 100% !important;
+    }
+
+}

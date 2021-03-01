@@ -1,0 +1,139 @@
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "base/typography";
+@import "pages/header";
+
+section {
+  color: $color-gray-font;
+  background-color: $color-whitegray-background;
+  input {
+    background-color: $color-whitegray-background
+  }
+  input:focus {
+    outline: none;
+    border: none;
+  }
+  +section {
+    +section {
+      background-color: #fff;
+      height: 100vh;
+      color: $color-red;
+      background-color: $color-red;
+      color: #fff;
+      text-align: center;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+section.container-section {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.mt-7 {
+  margin-top: 70px;
+}
+.mt-5 {
+  margin-top: 50px !important;
+}
+.mt-3 {
+  margin-top: 30px !important;
+}
+.mt-2 {
+  margin-top: 20px !important;
+}
+.mt-05 {
+  margin-top: 5px;
+}
+.mb-3 {
+  margin-bottom: 30px !important;
+}
+.mb-6 {
+  margin-bottom: 60px;
+}
+.mb-10 {
+  margin-bottom: 100px;
+}
+
+.no-margin {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.font-32 {
+  font-size: 32px
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-bold {
+  font-weight: 600;
+}
+.white-font {
+  color: $color-white;
+}
+.gray-font {
+  color: $color-gray-font;
+}
+
+.white-border {
+  border-radius: 8px;
+  border: 2px solid $color-white;
+}
+.gray-border {
+  border-radius: 8px;
+  border: 2px solid $color-gray-font;
+}
+
+.white-background {
+  background-color: $color-white;
+}
+.red-background {
+  background-color: $color-pink-background;
+}
+
+.center-text {
+  text-align: center;
+}
+.left-text {
+  text-align: left;
+}
+.align-item-center {
+  display: flex;
+  align-items: center;
+}
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.letter-space-4 {
+  letter-spacing: 4px;
+}
+.letter-space-28 {
+  letter-spacing: 2.8px;
+}
